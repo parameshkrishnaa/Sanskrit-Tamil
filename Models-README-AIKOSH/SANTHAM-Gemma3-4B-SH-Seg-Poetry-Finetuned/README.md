@@ -48,6 +48,7 @@ HUGGINGFACE_TOKEN=hf_your_token_here
 ---
 
 ## Model Inference Code
+### Input text should be segmented, it can be done from here [https://sanskrit.inria.fr/DICO/reader.fr.html](https://sanskrit.inria.fr/DICO/reader.fr.html)
 
 ```python
 import os
