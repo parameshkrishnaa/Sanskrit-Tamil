@@ -82,6 +82,7 @@ print(f"Loading model on {DEVICE}...")
 base_model = AutoModelForCausalLM.from_pretrained(
     MODEL_NAME,
     torch_dtype=torch.float16,
+    # torch_dtype=torch.bfloat16, # uncomment this line if your GPU supports bfloat16  and comment previous line
     device_map="auto" if DEVICE == "cuda" else None,
 )
 
