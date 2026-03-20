@@ -1,0 +1,14 @@
+[project]
+name = "satamt-inference"
+version = "0.1.0"
+description = "Sanskrit-Tamil Translation Inference using Gemma 3"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.8.0",
+    "transformers==4.57.1",
+    "peft>=0.17.1",
+    "dotenv>=0.9.9",
+    "tqdm>=4.67.1",
+    "sentencepiece>=0.2.1",
+]
