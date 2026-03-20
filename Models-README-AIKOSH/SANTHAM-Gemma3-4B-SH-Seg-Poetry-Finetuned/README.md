@@ -24,6 +24,8 @@ powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
 ---
 
 ### 2. Project Setup
+Download the pyproject.toml file from [here](https://github.com/parameshkrishnaa/Sanskrit-Tamil/blob/main/Models-README-AIKOSH/SANTHAM-Gemma3-4B-Finetuned/pyproject.toml).  
+
 Initialize the environment and install dependencies:
 
 ```bash
