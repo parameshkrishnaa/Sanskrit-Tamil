@@ -24,6 +24,8 @@ powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
 ---
 
 ### 2. Project Setup
+Download the pyproject.toml file from [here](https://github.com/parameshkrishnaa/Sanskrit-Tamil/blob/main/Models-README-AIKOSH/SANTHAM-Gemma3-4B-Finetuned/pyproject.toml).   
+
 Initialize the environment and install dependencies:
 
 ```bash
@@ -79,7 +81,8 @@ print(f"Loading model on {DEVICE}...")
 # Load base model
 base_model = AutoModelForCausalLM.from_pretrained(
     MODEL_NAME,
-    torch_dtype=torch.float16,
+    #torch_dtype=torch.float16, # uncomment this line if your GPU supports float16  and comment next line
+    torch_dtype=torch.bfloat16, 
     device_map="auto" if DEVICE == "cuda" else None,
 )
 
