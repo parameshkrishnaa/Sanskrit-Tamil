@@ -16,3 +16,26 @@ https://aikosh.indiaai.gov.in/web/models/details/santham_gemma3_4b_sh_seg_poetry
 | poetry.tsv             | Training    | 69,703          | Automatically aligned / human-translated classical poetry                  |
 | poetry_benchmark.tsv   | Benchmark   | 1,000           | Human-reviewed benchmark pairs for evaluation                              |
 | anvaya.tsv             | Training    | 10,146          | Poetry data mapped to *anvaya* (prose-order reordered) to aid translation  |
+
+
+## To cite this work, please use the following BibTeX entry:
+```
+@inproceedings{s-etal-2026-santham,
+    title = "Santham: A Curated {S}anskrit{--}{T}amil Dataset with Anvaya and Segmentation for Building and Evaluating Machine Translation",
+    author = "S, Prasanna Venkatesh T  and
+      Shetye, Ketaki Mangesh  and
+      Arjunasamy, Vishnuraj  and
+      Sahu, Ayush Kumar  and
+      Krishnan, Sriram  and
+      Krishnamurthy, Parameswari",
+    editor = "Satuluri, Pavankumar  and
+      Goyal, Pawan",
+    booktitle = "Proceedings of the 8th International {S}anskrit Computational Linguistics Symposium",
+    month = mar,
+    year = "2026",
+    address = "IIT Roorkee, Roorkee, India",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.iscls-1.5/",
+    pages = "65--80"
+}
+```
